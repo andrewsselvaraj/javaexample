@@ -17,9 +17,9 @@ public class FunctionalInterfaceImplemenationforLogin {
 		
 		Employee emploee= new Employee("idss2","ssssssvalue3");
 		
-		LoginFunctionalInterface fi= (emp) -> { 
+		LoginFunctionalInterface fi= (x) -> { 
 	 
-		return emp;
+		return x;
 	 
 			
 		};
